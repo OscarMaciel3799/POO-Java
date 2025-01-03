@@ -1,4 +1,4 @@
-Programación Orientada a Objetos</h1>
+<h1>Programación Orientada a Objetos</h1>
 
 Este repositorio es una colección de proyectos, ejercicios y ejemplos centrados en el paradigma de Programación Orientada a Objetos (POO). Aquí encontrarás ejemplos de cómo utilizar conceptos fundamentales de la POO como clases, objetos, herencia, polimorfismo, encapsulamiento y abstracción para resolver problemas reales y mejorar tus habilidades de programación.
 
