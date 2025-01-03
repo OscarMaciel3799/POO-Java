@@ -1,16 +1,11 @@
-public class Suma {
-    double a;
-    double b;
+public class Suma implements Operacion {
+    private final double a, b;
 
     // Constructor para inicializar los valores de 'a' y 'b'
-    public Suma(double a, double b) {
-        this.a = a;
-        this.b = b;
+    public Suma(double[] valores) {
+        this.a = valores[0];
+        this.b = valores[1];
     }
-
-    // Metodo para realizar la suma
-    public double calcularSuma() {
-        return a + b;
-    }
+    @Override
+    public double calcular() { return a + b; }
 }
-

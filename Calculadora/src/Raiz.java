@@ -1,14 +1,10 @@
-public class Raiz {
-    double a;
+public class Raiz implements Operacion {
+    private final double a;
 
-    // Constructor para inicializar los valores de 'a' y 'b'
-    public Raiz(double a) {
-        this.a = a;
-
+    // Constructor para inicializar el valor de 'a'
+    public Raiz(double valores) {
+        this.a = valores;
     }
-
-    // Metodo para realizar la suma
-    public double calcularRaiz() {
-        return Math.sqrt(a);
-    }
+    @Override
+    public double calcular() { return Math.sqrt(a); }
 }

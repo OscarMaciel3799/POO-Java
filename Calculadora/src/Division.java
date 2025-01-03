@@ -1,15 +1,11 @@
-public class Division {
-    double a;
-    double b;
+public class Division implements Operacion {
+    private final double a, b;
 
     // Constructor para inicializar los valores de 'a' y 'b'
-    public Division(double a, double b) {
-        this.a = a;
-        this.b = b;
+    public Division(double[] valores) {
+        this.a = valores[0];
+        this.b = valores[1];
     }
-
-    // Metodo para realizar la suma
-    public double calcularDivision() {
-        return a / b;
-    }
+    @Override
+    public double calcular() { return a / b; }
 }
