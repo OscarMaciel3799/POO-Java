@@ -13,7 +13,7 @@ public class Main {
         System.out.println("Bienvenido al juego Ahorcado");
         System.out.println("Ingrese la longitud de la palabra que desea jugar:");
         System.out.println("Asegurese que sea un número mayor a 3 y menor a 10.");
-        
+
         int longitud = 0;
         boolean longitudValida = false;
 
