@@ -1,4 +1,4 @@
-<h1>🎯 📚 Biblioteca Virtual - Programación Orientada a Objetos</h1>
+<h1>📚 Biblioteca Virtual - Programación Orientada a Objetos</h1>
 ¡Bienvenido a Biblioteca Virtual, una aplicación simple para gestionar libros, donde los usuarios pueden explorar géneros literarios, alquilar y devolver libros de forma interactiva!
 
 <h3>🚀 Funcionalidades</h3>
